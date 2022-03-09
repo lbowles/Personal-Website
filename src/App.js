@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
-import Intro from "./components/Intro.tsx"
+import Intro from "./components/Intro/Intro.tsx"
+import About from './components/About/About.tsx';
 
 function App() {
   return (
     <div className="App">
-      <Intro></Intro>
+      <div className='container'>
+        <div style={{marginTop:"10vh",marginBottom:"6vh"}}>
+        <Intro></Intro>
+        </div>
+        <About></About>
+      </div>
     </div>
   );
 }

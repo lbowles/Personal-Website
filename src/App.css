@@ -1,7 +1,9 @@
 .App {
   background-color: white;
+  text-align: center;
 }
-
-.text {
-  font-size: 200px ;
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 35px;
 }
