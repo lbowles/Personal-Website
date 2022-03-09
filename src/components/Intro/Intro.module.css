@@ -4,3 +4,8 @@
     transform: translateY(-60px);
     background-color: white;
 }
+
+.padding{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
