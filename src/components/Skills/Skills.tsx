@@ -8,16 +8,38 @@ const Skills = (props: Props) => {
     <div>
       <h1>Skills</h1>
       <div className='rowContainer'>
-        <div>
+        <div style={{width:"33%"}}>
           <h2>Primary</h2>
           <div className='rowContainer'>
-            <div className={style.accent}></div>
+            <div className={style.accent} style={{backgroundColor: "#45E3E6"}}></div>
             <div style={{marginTop:"3px"}}>
               <h3>HTML5</h3>
               <h3>CSS</h3>
               <h3>React</h3>
               <h3>Java Scrip</h3>
               <h3>UI Design</h3>
+            </div>
+          </div>
+        </div>
+        <div style={{width:"33%"}}>
+          <h2>Secondary</h2>
+          <div className='rowContainer'>
+            <div className={style.accent} style={{backgroundColor: "#43C3F2"}}></div>
+            <div style={{marginTop:"3px"}}>
+              <h3>Python</h3>
+              <h3>Java</h3>
+              <h3>SQL</h3>
+              <h3>Web 3</h3>
+            </div>
+          </div>
+        </div>
+        <div style={{width:"33%"}}>
+          <h2>Miscellaneous</h2>
+          <div className='rowContainer'>
+            <div className={style.accent} style={{backgroundColor: "#41A4FE"}}></div>
+            <div style={{marginTop:"3px"}}>
+              <h3>3D Modeling</h3>
+              <h3>Video Editing</h3>
             </div>
           </div>
         </div>
