@@ -17,7 +17,7 @@ function App() {
         <div style={{marginBottom:"50px"}}>
           <Skills></Skills>
         </div>
-        <div style={{marginBottom:"40px"}}>
+        <div style={{marginBottom:"20px"}}>
           <div className='divider'></div>
           <Experience></Experience>
         </div>
