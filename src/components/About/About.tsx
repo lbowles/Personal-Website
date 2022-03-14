@@ -11,7 +11,7 @@ const About = (props: Props) => {
         <img src={profile} className={style.profile}></img>
         <div style={{marginLeft:"25px"}}>
           <h2>About Me</h2>
-          <h4>ada bn adsknad a adkand </h4>
+          <h4>I’m a micro business owner and student studying computer science. I have alwaysed enjoyed all things tech, from robotics to programming. I am always trying widen my strengthen my skill set and am currently geting into the blockchain and web3 development space.</h4>
         </div>
       </div>
     </div>

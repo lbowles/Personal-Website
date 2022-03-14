@@ -41,7 +41,9 @@ h4{
 }
 .rowContainer{
   display: flex;
+  transition-duration: 0.2s;
 }
+
 .divider{
   width: 100%;
   height: 5px;
@@ -54,5 +56,20 @@ h4{
   border-radius: 10px;
   background-color: #FE8BC2;
   margin-right: 15px;
-  margin-top: 4px;
+  margin-top: 6px;
+  transition: 0.2s ease-in-out; 
+}
+.accent{
+  width: 5px;
+  min-height: 10px;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+#out:hover  #point{
+  background-color: #FE8BC2;
+  height:85% ;
+
+}
+#skillOut:hover #accent{
+  width:10px ;
 }
