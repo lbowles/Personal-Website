@@ -11,19 +11,19 @@ function App() {
     <div className="App">
       <div className='container'>
         <div>
-         
+          <Intro></Intro>
         </div>
-        <div style={{marginBottom:"80px",paddingLeft:"10px",paddingRight:"10px"}}>
+        <div style={{marginBottom:"80px",marginLeft:"10px",marginRight:"10px"}}>
           <About></About>
         </div>
-        <div style={{marginBottom:"50px",paddingLeft:"10px",paddingRight:"10px"}}>
+        <div style={{marginBottom:"50px",marginLeft:"10px",marginRight:"10px"}}>
           <Skills></Skills>
         </div>
-        <div style={{marginBottom:"45px",paddingLeft:"10px",paddingRight:"10px"}}>
+        <div style={{marginBottom:"45px",marginLeft:"10px",marginRight:"10px"}}>
           <div className='divider'></div>
           <Experience></Experience>
         </div>
-        <div style={{marginBottom:"120px",paddingLeft:"10px",paddingRight:"10px"}}>
+        <div style={{marginBottom:"120px",marginLeft:"10px",marginRight:"10px"}}>
           <div className='divider'></div>
           <Education></Education>
         </div>
