@@ -13,17 +13,17 @@ function App() {
         <div>
          <Intro></Intro>
         </div>
-        <div style={{marginBottom:"80px"}}>
+        <div style={{marginBottom:"80px",paddingLeft:"10px",paddingRight:"10px"}}>
           <About></About>
         </div>
-        <div style={{marginBottom:"50px"}}>
+        <div style={{marginBottom:"50px",paddingLeft:"10px",paddingRight:"10px"}}>
           <Skills></Skills>
         </div>
-        <div style={{marginBottom:"45px"}}>
+        <div style={{marginBottom:"45px",paddingLeft:"10px",paddingRight:"10px"}}>
           <div className='divider'></div>
           <Experience></Experience>
         </div>
-        <div style={{marginBottom:"120px"}}>
+        <div style={{marginBottom:"120px",paddingLeft:"10px",paddingRight:"10px"}}>
           <div className='divider'></div>
           <Education></Education>
         </div>

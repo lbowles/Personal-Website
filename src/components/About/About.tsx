@@ -15,7 +15,7 @@ const About = (props: Props) => {
           <div className={style.verticalCenter}>
            <img src={profile} className={style.profile}></img>
           </div>
-          <div style={{marginLeft:"25px"}}>
+          <div style={{marginLeft:"15px"}}>
             <h2>About Me</h2>
             <h4>I’m a micro business owner and student studying computer science. I have always enjoyed all things tech, from robotics to programming. I am constantly trying to strengthen my skill set and am currently getting into the blockchain and web3 development space.</h4>
           </div>
