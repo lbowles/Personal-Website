@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className='container'>
         <div>
-         <Intro></Intro>
+         
         </div>
         <div style={{marginBottom:"80px",paddingLeft:"10px",paddingRight:"10px"}}>
           <About></About>
