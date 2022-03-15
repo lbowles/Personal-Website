@@ -16,7 +16,7 @@ const Skills = (props: Props) => {
               <h3>HTML5</h3>
               <h3>CSS</h3>
               <h3>React</h3>
-              <h3>Java Scrip</h3>
+              <h3>Java Script</h3>
               <h3>UI Design</h3>
             </div>
           </div>
