@@ -18,3 +18,14 @@
 .icon:hover{
     transform: translateY(-2px);
 }
+.verticalCenter {
+    display: flex;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .profile{
+        width: 80px;
+        height: 80px;
+    }
+  }
