@@ -11,7 +11,11 @@
 
 @media only screen and (max-width: 500px) {
   .container {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .h4{
+    font-size: 13px;
   }
 }
 h1{
@@ -79,3 +83,4 @@ h4{
 #skillOut:hover #accent{
   width:10px ;
 }
+

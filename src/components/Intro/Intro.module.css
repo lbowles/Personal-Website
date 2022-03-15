@@ -36,9 +36,9 @@ iframe{
     }
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 400px) {
     .iframe{
-      width: 230px;
+      width: 120px;
       text-align: center;
       -webkit-transform: scale(0.65);
       -o-transform: scale(0.65);
