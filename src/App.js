@@ -10,18 +10,20 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        <Intro></Intro>
+        <div>
+         <Intro></Intro>
+        </div>
         <div style={{marginBottom:"80px"}}>
           <About></About>
         </div>
         <div style={{marginBottom:"50px"}}>
           <Skills></Skills>
         </div>
-        <div style={{marginBottom:"20px"}}>
+        <div style={{marginBottom:"45px"}}>
           <div className='divider'></div>
           <Experience></Experience>
         </div>
-        <div style={{marginBottom:"40px"}}>
+        <div style={{marginBottom:"120px"}}>
           <div className='divider'></div>
           <Education></Education>
         </div>

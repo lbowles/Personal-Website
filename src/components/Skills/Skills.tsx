@@ -24,12 +24,13 @@ const Skills = (props: Props) => {
         <div style={{width:"33%"}}>
           <h2>Secondary</h2>
           <div className='rowContainer' id="skillOut">
-            <div className={style.accent} style={{backgroundColor: "#76CEFF"}} id="accent"></div>
+          <div className={style.accent} style={{backgroundColor: "#76CEFF"}} id="accent"></div>
             <div style={{marginTop:"3px"}}>
               <h3>Python</h3>
               <h3>Java</h3>
               <h3>SQL</h3>
-              <h3>Web 3</h3>
+              <h3>Web 3 <span className={style.learning}>Learning</span></h3>
+              <h3>Solidity <span className={style.learning}>Learning</span></h3>
             </div>
           </div>
         </div>
@@ -39,7 +40,9 @@ const Skills = (props: Props) => {
             <div className={style.accent} style={{backgroundColor: "#41AFFE"}}  id="accent"></div>
             <div style={{marginTop:"3px"}}>
               <h3>3D Modeling</h3>
+              <h3>3D Printing</h3>
               <h3>Video Editing</h3>
+              <h3>Lottie Animation</h3>
             </div>
           </div>
         </div>

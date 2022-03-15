@@ -9,6 +9,12 @@
   width: 500px;
   margin: 0 auto;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 h1{
   font-size: 40px ;
   font-size: bold;
@@ -30,9 +36,11 @@ h3{
   text-align: left;
 }
 h4{
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   margin-top: 0;
+  margin-top: -6px;
+  margin-bottom: 2px;
 }
 
 .alignRight{
@@ -54,7 +62,7 @@ h4{
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  background-color: #FE8BC2;
+  background-color: #FEC28B;
   margin-right: 15px;
   margin-top: 6px;
   transition: 0.2s ease-in-out; 
@@ -66,7 +74,6 @@ h4{
   margin-right: 15px;
 }
 #out:hover  #point{
-  background-color: #FE8BC2;
   height:85% ;
 
 }

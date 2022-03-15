@@ -23,7 +23,7 @@ const Experience = (props: Props) => {
     <div>
         <h1>Experience</h1>
         {projects.map((project,index)=>(
-          <div id="out" className='rowContainer moveUp'  style={{paddingTop: index>0 ? "12px" : "0px",width:"100%"}} >
+          <div id="out" className='rowContainer moveUp'  style={{paddingTop: index>0 ? "12px" : "5px",width:"100%"}} >
             <div >
               <div className="point" id="point"  style={{backgroundColor:project.color}}></div>
             </div>
