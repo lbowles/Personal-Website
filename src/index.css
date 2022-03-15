@@ -8,8 +8,3 @@ body {
 code {
   font-family: 'Roboto', sans-serif;
 }
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
