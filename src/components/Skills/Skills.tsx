@@ -35,7 +35,7 @@ const Skills = (props: Props) => {
           </div>
         </div>
         <div style={{width:"33%"}}>
-          <h2>Miscellaneous</h2>
+          <h2>Extras</h2>
           <div className='rowContainer' id="skillOut">
             <div className={style.accent} style={{backgroundColor: "#41AFFE"}}  id="accent"></div>
             <div style={{marginTop:"3px"}}>
