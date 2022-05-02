@@ -5,6 +5,8 @@ import neonLogo from "../../img/neon.png"
 import traqLogo from "../../img/traq.png"
 import klima from "../../img/klima.png"
 import punk from "../../img/punk.png"
+import clock from "../../img/clock.svg"
+import onset from "../../img/onset.svg"
 
 
 
@@ -15,7 +17,9 @@ const Experience = (props: Props) => {
   const projects = [{title:"Cell Traq",description:"System monitoring cathode efficiency in electrowinning plants.",date:"[2018-2019]",link:"https://traxs.tech/",color:"#8B90FE",logo:traqLogo},
                     {title:"Neon Analytics",description:"LinkedIn marketing analytics and reporting",date:"[2020-2022]",link:"https://analytics.neonsolutions.co.za",color:"#BE8BFE",logo:neonLogo},
                     {title:"Klima Incoom",description:"Simple staking rewards calculator for KlimaDAO",date:"[2021]",link:"https://klimaincoom.luko.co.za/",color:"#E08BFE",logo:klima},
-                    {title:"Synthetic Punks",description:"A unique, fully on-chain CryptoPunk for every Ethereum address",date:"[2022]",link:"https://syntheticpunks.com/",color:"#FE8BDE",logo:punk}
+                    {title:"Synthetic Punks",description:"A unique, fully on-chain CryptoPunk for every Ethereum address",date:"[2022]",link:"https://syntheticpunks.com/",color:"#FE8BDE",logo:punk},
+                    {title:"Moment NFT",description:"A fully on-chain clock NFT",date:"[2022]",link:"https://momentNFT.luko.co.za/",color:"#FE8B92",logo:clock},
+                    {title:"Onset Cardon Retirement Verification",description:"Verification tool build for tracking on-chain carbon credit retirements",date:"[2022]",link:"https://www.onsetcarbon.com/",color:"#FEAD8B",logo:onset}
                    ]
                     
 
