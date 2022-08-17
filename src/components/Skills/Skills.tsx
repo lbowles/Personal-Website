@@ -13,8 +13,7 @@ const Skills = (props: Props) => {
           <div className='rowContainer' id="skillOut">
             <div className={style.accent} style={{backgroundColor: "#8BE9FE"}} id="accent"></div>
             <div style={{marginTop:"3px"}}>
-              <h3>HTML5</h3>
-              <h3>CSS</h3>
+              <h3>Web3</h3>
               <h3>React</h3>
               <h3>Java Script</h3>
               <h3>UI Design</h3>
@@ -29,7 +28,7 @@ const Skills = (props: Props) => {
               <h3>Python</h3>
               <h3>Java</h3>
               <h3>SQL</h3>
-              <h3>Web 3 <span className={style.learning}>Learning</span></h3>
+              <h3>Node.js</h3>
               <h3>Solidity <span className={style.learning}>Learning</span></h3>
             </div>
           </div>
