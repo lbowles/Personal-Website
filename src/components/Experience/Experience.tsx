@@ -18,7 +18,7 @@ const Experience = (props: Props) => {
       description:
         'System monitoring cathode efficiency in electrowinning plants.',
       date: '[2018-2019]',
-      link: 'https://traxs.tech/',
+      link: 'https://masq.co.za/cell-traq/',
       color: '#8B90FE',
       logo: traqLogo,
     },

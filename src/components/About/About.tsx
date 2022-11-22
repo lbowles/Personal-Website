@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './About.module.css'
-import profile from '../../img/profile.png'
+import profile from '../../img/profile.jpg'
 import twitter from '../../img/twitter.svg'
 import github from '../../img/github.svg'
 import mail from '../../img/mail.svg'
