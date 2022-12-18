@@ -8,6 +8,7 @@ import punk from '../../img/punk.png'
 import clock from '../../img/clock.svg'
 import onset from '../../img/onset.svg'
 import westernCape from '../../img/westernCape.jpeg'
+import walletUsage from '../../img/walletUsage.svg'
 
 type Props = {}
 
@@ -55,21 +56,30 @@ const Experience = (props: Props) => {
       color: '#FE8B92',
       logo: clock,
     },
+        {
+      title: 'Substance Use Disorder Assessment Tool',
+      description:
+        'Standardised tool for assessing substance use disorders in the Western Cape (South Africa)',
+      date: '[2022]',
+      color: '#FEAD8B',
+      logo: westernCape,
+    },
+        {
+      title: 'Wallet Usage',
+      description:
+        'Simple tool showing wallet activity, made to test development using ChatGPT',
+      date: '[2022]',
+      link: 'https://walletusage.luko.co.za/',
+      color: '#fedc8b',
+      logo: walletUsage,
+    },
     {
       title: 'Onset Carbon',
       description: 'Easy, publicly verifiable carbon offsetting',
       date: '[2022]',
       link: 'https://www.onsetcarbon.com/',
-      color: '#FEAD8B',
+      color: '#f3fe8b',
       logo: onset,
-    },
-    {
-      title: 'Substance Use Disorder Assessment Tool',
-      description:
-        'Standardised tool for assessing substance use disorders in the Western Cape (South Africa)',
-      date: '[2022]',
-      color: '#fedc8b',
-      logo: westernCape,
     },
   ]
 
