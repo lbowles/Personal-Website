@@ -7,7 +7,7 @@ import klima from '../../img/klima.png'
 import punk from '../../img/punk.png'
 import clock from '../../img/clock.svg'
 import onset from '../../img/onset.svg'
-import westernCape from '../../img/westernCape.jpeg'
+import westernCape from '../../img/westernCape.svg'
 import walletUsage from '../../img/walletUsage.svg'
 
 type Props = {}
@@ -62,6 +62,7 @@ const Experience = (props: Props) => {
         'Standardised tool for assessing substance use disorders in the Western Cape (South Africa)',
       date: '[2022]',
       color: '#FEAD8B',
+      link:'https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7',
       logo: westernCape,
     },
         {
