@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Experience.module.css";
+import style from "../Sections.module.css";
 import linkIcon from "../../img/link.svg";
 import neonLogo from "../../img/neon.png";
 import traqLogo from "../../img/traq.png";
@@ -11,6 +11,7 @@ import westernCape from "../../img/westernCape.svg";
 import walletUsage from "../../img/walletUsage.svg";
 import solarSystems from "../../img/solarSystems.svg";
 import simpleLearningTime from "../../img/simpleLearningTime.png";
+import arc from "../../img/ARC.png";
 
 type Props = {};
 
@@ -22,57 +23,32 @@ const Experience = (props: Props) => {
         "An educational app to teach students how to tell time. It is used in multiple schools across South Africa and several other countries.",
       date: "[2016]",
       link: "https://apps.apple.com/za/app/simple-learning-time/id1096092596",
-      color: "#8BABFE",
+      color: "#C0F89E",
       logo: simpleLearningTime,
     },
     {
-      title: "Cell Traq",
+      title: "WRO 2017 Advanced Robotics Challenge",
       description:
-        "System monitoring cathode efficiency in electrowinning plants.",
-      date: "[2018-2019]",
-      link: "https://masq.co.za/cell-traq/",
-      color: "#8B90FE",
-      logo: traqLogo,
-    },
-    {
-      title: "Neon Analytics",
-      description: "LinkedIn marketing analytics and reporting",
-      date: "[2020-2022]",
-      link: "https://analytics.neonsolutions.co.za",
-      color: "#BE8BFE",
-      logo: neonLogo,
+        "Our team placed 9th out of 380 international tertiary teams in the Advanced Robotics Challenge at the World Robot Olympiad in Costa Rica. The challenge was to build a robot that plays a 3D Tetris-like game",
+      date: "[2017]",
+      link: "https://walletusage.luko.co.za/",
+      color: "#A5F89E",
+      logo: arc,
     },
     {
       title: "Klima Incoom",
       description: "Simple staking rewards calculator for KlimaDAO",
       date: "[2021]",
       link: "https://klimaincoom.luko.co.za/",
-      color: "#E08BFE",
+      color: "#8EF0B5",
       logo: klima,
-    },
-    {
-      title: "Synthetic Punks",
-      description:
-        "A unique, fully on-chain CryptoPunk for every Ethereum address",
-      date: "[2022]",
-      link: "https://syntheticpunks.com/",
-      color: "#FE8BDE",
-      logo: punk,
-    },
-    {
-      title: "Moment NFT",
-      description: "A fully on-chain clock NFT",
-      date: "[2022]",
-      link: "https://momentNFT.luko.co.za/",
-      color: "#FE8B92",
-      logo: clock,
     },
     {
       title: "Substance Use Disorder Assessment Tool",
       description:
         "Standardised tool for assessing substance use disorders in the Western Cape (South Africa) - Final year Comp Sci project",
       date: "[2022]",
-      color: "#FEAD8B",
+      color: "#7BE7A6",
       link: "https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7",
       logo: westernCape,
     },
@@ -82,31 +58,14 @@ const Experience = (props: Props) => {
         "Simple tool showing wallet activity, made to test development using ChatGPT",
       date: "[2022]",
       link: "https://walletusage.luko.co.za/",
-      color: "#fedc8b",
+      color: "#71DA9A",
       logo: walletUsage,
-    },
-    {
-      title: "On-chain Solar Systems",
-      description:
-        "Fully on-chain, procedurally generated, animated solar systems. 100+ Eth trading volume",
-      date: "[2022]",
-      color: "#F8F496",
-      link: "https://onchainsolar.systems/",
-      logo: solarSystems,
-    },
-    {
-      title: "Onset Carbon",
-      description: "Easy, publicly verifiable carbon offsetting",
-      date: "[2022-ongoing]",
-      link: "https://www.onsetcarbon.com/",
-      color: "#D9F896",
-      logo: onset,
     },
   ];
 
   return (
     <div>
-      <h1>Experience</h1>
+      <h1>Side Projects</h1>
       {projects.map((project, index) => (
         <div
           id="out"
