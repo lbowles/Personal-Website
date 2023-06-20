@@ -5,6 +5,7 @@ import punk from "../../img/punk.png";
 import clock from "../../img/clock.svg";
 import blackHoles from "../../img/blackHoles.svg";
 import kaleidoscopes from "../../img/kaleidoscopes.svg";
+import etherplanets from "../../img/etherplanets.png";
 
 import solarSystems from "../../img/solarSystems.svg";
 
@@ -55,6 +56,15 @@ const NFTs = (props: Props) => {
       color: "#FEE58B",
       link: "https://onchainblackholes.com/",
       logo: blackHoles,
+    },
+    {
+      title: "Etherplanets",
+      description:
+        "Fully on-chain, procedurally 3d planets using Three.js rendering",
+      date: "[2023]",
+      color: "#FFEDAC",
+      link: "https://etherplanets.com/",
+      logo: etherplanets,
     },
   ];
 

@@ -20,10 +20,8 @@ const Skills = (props: Props) => {
               <h3>Web3</h3>
               <h3>React</h3>
               <h3>Type Script</h3>
-              <h3>UI Design</h3>
-              <h3>
-                Solidity <span className={style.learning}>Learning</span>
-              </h3>
+              <h3>Next.js</h3>
+              <h3>Business Analysis</h3>
             </div>
           </div>
         </div>
@@ -40,6 +38,9 @@ const Skills = (props: Props) => {
               <h3>Java</h3>
               <h3>SQL</h3>
               <h3>Node.js</h3>
+              <h3>
+                Solidity <span className={style.learning}>Learning</span>
+              </h3>
             </div>
           </div>
         </div>

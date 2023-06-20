@@ -4,6 +4,7 @@ import linkIcon from "../../img/link.svg";
 import neonLogo from "../../img/neon.png";
 import traqLogo from "../../img/traq.png";
 import onset from "../../img/onset.svg";
+import alpha from "../../img/alpha.svg";
 
 type Props = {};
 
@@ -33,6 +34,15 @@ const Work = (props: Props) => {
       link: "https://www.onsetcarbon.com/",
       color: "#CB8BFE",
       logo: onset,
+    },
+    {
+      title: "Alpha Feed",
+      description:
+        "Using AI to surface the most significant AI related news of the day",
+      date: "[2023-ongoing]",
+      link: "https://alphafeed.xyz/",
+      color: "#E4ABFF",
+      logo: alpha,
     },
   ];
 
