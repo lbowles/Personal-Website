@@ -2,10 +2,10 @@
   background-color: white;
   text-align: center;
   color: #303030;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .container {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@
   }
 }
 h1 {
-  font-size: 40px;
+  font-size: 32px;
   font-size: bold;
   text-align: left;
   margin-bottom: 20px;
