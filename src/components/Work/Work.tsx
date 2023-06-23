@@ -13,7 +13,7 @@ const Work = (props: Props) => {
     {
       title: "Cell Traq",
       description:
-        "System monitoring cathode efficiency in electrowinning plants.",
+        "Using a thermal camera system to monitor cathode efficiency in electrowinning plants • MasQ Brands",
       date: "[2018-2019]",
       link: "https://masq.co.za/cell-traq/",
       color: "#8B90FE",
@@ -21,7 +21,7 @@ const Work = (props: Props) => {
     },
     {
       title: "Neon Analytics",
-      description: "LinkedIn marketing analytics and reporting",
+      description: "LinkedIn marketing analytics and reporting • TurnLeftMedia",
       date: "[2020-2022]",
       link: "https://analytics.neonsolutions.co.za",
       color: "#A98BFE",
