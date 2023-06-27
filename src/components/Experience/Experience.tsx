@@ -30,7 +30,7 @@ const Experience = (props: Props) => {
       title: "WRO 2016 Senior Open Category",
       description:
         "Our team placed 9th out of 380 international tertiary teams in the Advanced Robotics Challenge at the World Robot Olympiad in Costa Rica. The challenge was to build a robot that plays a 3D Tetris-like game",
-      date: "[2017]",
+      date: "[2016]",
       link: "https://docs.google.com/document/d/1lOSYYLLtHfKbfC3GePSzaI4h3GZ6m7QN2lN7buuLsyE/edit?usp=sharing",
       color: "#C0F89E",
       logo: arc,
