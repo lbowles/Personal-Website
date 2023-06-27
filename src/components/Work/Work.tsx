@@ -29,7 +29,8 @@ const Work = (props: Props) => {
     },
     {
       title: "Onset Carbon",
-      description: "Easy, publicly verifiable carbon offsetting",
+      description:
+        "Easy, publicly verifiable carbon offsetting. Recipient of Celo's Rrezenti Grants",
       date: "[2022-ongoing]",
       link: "https://www.onsetcarbon.com/",
       color: "#CB8BFE",
